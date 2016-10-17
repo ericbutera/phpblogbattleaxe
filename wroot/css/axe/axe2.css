@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+    padding: 2px 0px 2px 20px;
+}
+
+body {
+	font-family: Verdana, Arial, sans;
+	font-size: 13px;
+	color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	font-weight: normal;
+    margin: 0 0 8px 0;
+    padding: 2px 0;
+}
+
+h1 { font-size: 20px; }
+h2 { font-size: 18px; }
+h3 { font-size: 16px; }
+h4 { font-size: 15px; }
+
+a {
+	color: #009aff;
+	text-decoration: none;
+}
+a:hover {
+    color: #0b1622;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 940px;
+	text-align: left;
+	padding: 0;
+}
+
+#header {
+	background-color: #000;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	height: 50px;
+	width: 940px;
+	position: absolute;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+}
+#logo {
+	padding: 2px 0 15px 10px
+}
+#logo h1 {
+	font-family: "Trebuchet MS", Helvetica, Jamrul, sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	margin: 0; padding: 0;
+}
+#logo h1 a {
+	color: #33a8e5;
+}
+#logo span {
+	color: #ccc;
+}
+
+
+#catnav {
+	background-color: #4c4c4c;
+    position: absolute;
+    top: 40px;
+    margin: 20px 0 0 0;
+    padding: 0;
+    clear: both;
+    width: 940px;
+    border-bottom: 1px solid #000;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
+}
+#nav {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+}
+#nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#nav li {
+	line-height: 28px;
+	height: 30px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#nav li:hover, #nav li:hover a {
+	color: #009aff;
+    background-color: #000;
+}
+#nav a {
+    color: #fff;
+    display: block;
+}
+#nav a:hover, #nav a:active {
+	background-color: #000;
+	color: #009aff;
+    text-decoration: underline;
+}
+#nav li:hover, #nav li.sfhover { /* prevents IE7 drop-down menu bug (focus on a page element prevents nested menus from disappearing) */
+    position: static;
+}
+#toprss {
+	float: right;
+	margin: 0;
+	display: inline;
+	padding: 8px 10px 0 0;
+}
+
+
+#sidebars {
+	background-color: #e2e2e2;
+    padding: 15px;
+    margin-top: 10px;
+
+	color: #000;
+	float: right;
+	width: 250px;
+}
+
+#sidebars h2 {
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0; padding: 0;
+}
+
+#sidebars .sidebaritem {
+	padding: 2px;
+}
+
+#sidebars .sidebarbox {
+	padding: 2px;
+}
+
+#sidebars .friends {
+	list-style: none;
+}
+
+
+#main {
+	margin: 90px 0 0 0;
+	clear: both;
+	width: 940px;
+}
+#contentwrapper {
+	float:left;
+	width: 650px;
+	padding: 10px 0 0 0;
+}
+
+
+a img {
+    border: none;
+}
+.cleared {
+	margin: 0; padding: 0;
+	clear: both;
+}
+
+
+code {
+	white-space: pre;
+    font-family:monospace;
+    display: inline;
+    overflow: auto;
+    background-color: #ccc;
+    margin: 0;
+    padding: 1px 2px 1px 2px;
+}
+
+code.shell, pre.shell {
+    white-space: pre;
+    font-family:monospace;
+    display: block;
+    overflow: auto;
+    background-color: #ccc;
+    margin: 15px;
+    padding: 5px;
+    border-left: 2px solid #4c4c4c;
+}
+
+
+.baxe-page, .topPost {
+	margin-bottom: 10px;
+	background-color: #efefef;
+	border: 1px solid #282828;
+	padding: 10px 10px 20px 10px;
+}
+
+p.topMeta {
+	margin-bottom: 5px;
+}
+
+.topPost .topTitle {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.topPost h2.topTitle {
+	font-family: "Trebuchet MS", Helvetica, Jamrul, sans-serif;
+	font-size: 20px;
+	/*letter-spacing: -0.05em;*/
+	letter-spacing: -1px;
+}
+
+.topPost .topTitle a:hover {
+	background-color: #eee;
+	color: #009aff;
+}
+
+.topPost img {
+    display: block;
+    margin: 8px;
+    border: 3px solid #282828;
+}
+
+.topPost img.splash {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border: 6px solid #4c4c4c;
+}
+
+
+.topPost .topContent {
+	margin-bottom: 10px;
+}
+
+.topPost span.topComments, .topPost span.topMore, .topPost span.topTags {
+    font-style: italic;
+    padding: 5px;
+	margin-right: 5px;
+	color: #fff;
+	border: 1px solid #000;
+}
+
+.topPost span.topComments:hover, .topPost span.topMore:hover, .topPost span.topTags:hover {
+	background-color: #000;
+}
+.topPost .topComments, .topPost .topMore, .topPost .topTags {
+	vertical-align: middle;
+	background-color: #282828;
+}
+.topPost .topComments a, .topPost .topMore a, .topPost .topTags a {
+	font-size: 10px;
+	color: #75e730;
+}
+.topPost span.topMore a {
+	padding-left: 20px;
+	background: url(/css/pixel/images/more.gif) left no-repeat;
+}
+.topPost span.topTags em {
+	padding-left: 10px;
+	background: url(/css/pixel/images/tags.gif) left no-repeat;
+	color: #282828;
+}
+.topPost span.topComments a {
+	padding-left: 20px;
+    background: url(/css/pixel/images/comments.gif) left no-repeat;
+}
+
+#footer {
+	width: 650px;
+	background-color: #000;
+	padding: 8px 0 8px 0;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+}
+
+#footer a {
+	padding-left: 10px;
+    color: #009aff
+}
